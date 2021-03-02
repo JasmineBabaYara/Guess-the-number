@@ -3,6 +3,7 @@
 document.querySelector('#guessthenumber-button').addEventListener('click', guessthenumber);
 
 let answer = 5;
+let chancesleft = 3;
 
 function guessthenumber() {
     let guess = prompt('Guess the number');
@@ -10,11 +11,12 @@ function guessthenumber() {
     if(guess == answer) {
         prompt('You guessed correctly');
     }
+    
+    while( chancesleft != 0) {
+        chancesleft -= 1
 
-    for(let num = 1; num <= 3; num++) {
-        if (guess != answer) {
-            prompt('Try again');
-        }
+    } if(guess != answer) {
+        prompt('Try again');
+    
     }
-
 }
