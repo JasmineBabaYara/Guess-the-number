@@ -1,17 +1,17 @@
-.Container {
+.Container, .Container-1 {
     border: 1px solid black;
     margin:0 auto;
     width: 75%;
     text-align: center;
 }
 
-.btn-btn-primary {
+.btn-btn {
     color: white;
     background-color: blue;
     
 }
 
-.Container button {
+.Container button, .Container-1 button {
     border: 1px solid black;
-    padding: 10px;
+    padding: 5px;
 }
