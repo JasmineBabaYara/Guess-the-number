@@ -1,4 +1,4 @@
-.Container, .Container-1 {
+.Container{
     border: 1px solid black;
     margin:0 auto;
     width: 75%;
@@ -11,7 +11,7 @@
     
 }
 
-.Container button, .Container-1 button {
+.Container button{
     border: 1px solid black;
     padding: 5px;
 }
